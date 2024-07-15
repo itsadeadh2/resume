@@ -1,5 +1,9 @@
 # Resume #
 
+Create a resume from markdown and serve it with GitHub pages.
+
+---
+
 ### How to use
 1. Fork this project
 2. Configure the repo to be [published from a GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
