@@ -1,7 +1,7 @@
 # Thiago Barbosa da Silva
 
 **Porto Velho, Rondônia, Brazil**  
-itsadeadh2@gmail.com | + 55 69 992219034  
+[itsadeadh2@gmail.com](mailto:itsadeadh2@gmail.com) | + 55 69 992219034  
 [LinkedIn](https://www.linkedin.com/in/barbosathiagodev) | [GitHub](https://github.com/itsadeadh2)
 
 ---
