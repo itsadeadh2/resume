@@ -1,4 +1,4 @@
-import markdown
+import markdown, os
 
 # Read the Markdown file
 with open('resume.md', 'r') as file:
@@ -36,5 +36,5 @@ html_with_a4_styling = f"""
 """
 
 # Save the HTML to a file
-with open('resume.html', 'w') as file:
+with open('index.html', 'w') as file:
     file.write(html_with_a4_styling)
