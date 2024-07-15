@@ -35,6 +35,10 @@ html_with_a4_styling = f"""
 </html>
 """
 
+# create build folder
+if not os.path.exists('build'):
+    os.makedirs('build')
+
 # Save the HTML to a file
-with open('index.html', 'w') as file:
+with open('build/index.html', 'w') as file:
     file.write(html_with_a4_styling)
