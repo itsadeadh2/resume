@@ -7,7 +7,7 @@ env = Environment(loader=FileSystemLoader(path))
 template = env.get_template('base.html')
 
 # Read the Markdown file
-with open('readme.md', 'r') as file:
+with open('resume.md', 'r') as file:
     text = file.read()
 
 # Convert to HTML
