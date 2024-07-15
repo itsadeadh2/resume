@@ -1,39 +1,21 @@
 import markdown, os
+import pathlib
+from jinja2 import Environment, FileSystemLoader
+
+path = pathlib.Path(__file__).parent.resolve()
+env = Environment(loader=FileSystemLoader(path))
+template = env.get_template('base.html')
 
 # Read the Markdown file
-with open('resume.md', 'r') as file:
+with open('readme.md', 'r') as file:
     text = file.read()
 
 # Convert to HTML
-html_content = markdown.markdown(text)
+html_content = {
+    'content': markdown.markdown(text)
+}
 
-html_with_a4_styling = f"""
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @page {{
-            size: A4;
-            margin: 20mm;
-        }}
-        body {{
-            background-color: #d1d1d1;
-            width: 300mm;
-            height: 297mm;
-            margin: auto;
-            padding: 10mm;
-            box-sizing: border-box;
-        }}
-    </style>
-</head>
-<body>
-    {html_content}
-</body>
-</html>
-"""
+result = template.render(html_content=html_content)
 
 # create build folder
 if not os.path.exists('build'):
@@ -41,4 +23,4 @@ if not os.path.exists('build'):
 
 # Save the HTML to a file
 with open('build/index.html', 'w') as file:
-    file.write(html_with_a4_styling)
+    file.write(result)

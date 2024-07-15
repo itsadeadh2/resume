@@ -1,3 +1,4 @@
 markdown2
 weasyprint
 markdown
+jinja2
