@@ -129,9 +129,6 @@ _Landing page that emulates a [Commodore64](https://pt.wikipedia.org/wiki/Commod
 See on [GitHub](https://github.com/itsadeadh2/commodore-landing) | See [live](https://commodore.itsadeadh2.com/)
 
 ### It's An Api (personal project)
-
-*June 2024 - July 2024*
-
 _REST API that exposes a myriad of endpoints to be used for my personal projects_
 
 - Made with [Django Rest Framework](https://www.django-rest-framework.org/) and [Python](https://www.python.org/)
