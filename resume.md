@@ -105,10 +105,20 @@ Microservices, SQL, PostgreSQL, MongoDB, Docker, Kubernetes, HTML, CSS, JavaScri
 
 ## PROJECTS
 
-### Commodore Landing
+### Case Zipper
+_Lambda function that manipulated zip files on S3 to update 3D model data_
 
-*June 2024 - July 2024*
+- Made with Python and AWS Lambda, behind an AWS API Gateway
+- Promoted a performance gain over 91% due to files not needing to be manipulated in the browser anymore
 
+### React Service Worker
+_Caching and Pre-emptive loading of files_
+
+- Made with React and JavaScript
+- Started downloading large S3 files before the user got into the actual loading page
+- Made use of S3 objects `ETag` in order to cache files and verify if another download was needed
+
+### Commodore Landing (personal project)
 _Landing page that emulates a [Commodore64](https://pt.wikipedia.org/wiki/Commodore_64) terminal_
 
 - Made with [React](https://react.dev/) and [TypeScript](https://typescriptlang.org/)
@@ -118,7 +128,7 @@ _Landing page that emulates a [Commodore64](https://pt.wikipedia.org/wiki/Commod
 
 See on [GitHub](https://github.com/itsadeadh2/commodore-landing) | See [live](https://commodore.itsadeadh2.com/)
 
-### It's An Api
+### It's An Api (personal project)
 
 *June 2024 - July 2024*
 
@@ -136,32 +146,6 @@ _REST API that exposes a myriad of endpoints to be used for my personal projects
 - Test coverage at 95%
 
 See on [GitHub](https://github.com/itsadeadh2/itsanapi) | See [live](https://api.itsadeadh2.com/)
-
-### Email Sender
-
-*June 2024 - July 2024*
-
-_Worker that sends complex emails_
-
-- Made with [Python](https://www.python.org/)
-- [GitHub Actions](https://docs.github.com/actions) - automation tool
-- [AWS Cloudformation](https://aws.amazon.com/cloudformation/?nc1=h_ls) - IaC (Infrastructure as Code) tool
-- [AWS Lambda](https://aws.amazon.com/pm/lambda/) - Hosting
-- [AWS SQS](https://aws.amazon.com/sqs/?nc1=h_ls) - Queue
-
-See on [GitHub](https://github.com/itsadeadh2/email-sender-worker) | See [live]()
-
-### PAT CLI
-
-*April 2024 - April 2024*
-
-_CLI that adds docstring to python files using OpenAI Assistants_
-
-- Made with [Python](https://www.python.org/)
-- [setuptools](https://pypi.org/project/setuptools/) - Packaging and CLI setup
-- [Click](https://click.palletsprojects.com/en/8.1.x/) - CLI framework
-
-See on [GitHub](https://github.com/itsadeadh2/pat)
 
 ---
 
