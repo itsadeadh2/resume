@@ -8,8 +8,7 @@
 
 ## SUMMARY
 
-I am a proficient backend software developer with **7+ years of experience** and additional skills in frontend
-development.
+I am a senior full-stack software developer with **7+ years of experience**.
 My technical expertise includes Python, Node.js (JavaScript, TypeScript), Go, and React. I have extensive experience
 with AWS
 services such as CloudFormation, ECS, S3, Lambda, SQS, and CloudFront, and I am proficient in creating CI/CD pipelines
