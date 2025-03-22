@@ -30,10 +30,20 @@ Microservices, SQL, PostgreSQL, MongoDB, Docker, Kubernetes, HTML, CSS, JavaScri
 
 ## PROFESSIONAL EXPERIENCE
 
+### Heartland
+
+**Fullstack Software Engineer**  
+*Sep 2024 - Present (7 months)*
+
+- Helped design and implement integrations for third party systems for the company's POS system
+- Established a common architecture to be used for future integrations
+- Leveraged [NestJS](https://docs.nestjs.com/) to create REST API's as well as [NestJS IoC](https://docs.nestjs.com/standalone-applications) for service workers
+
+
 ### Softensity Inc
 
 **Software Engineer**  
-*May 2022 - Present (2 years 3 months)*
+*May 2022 - Jun 2024 (2 years 2 months)*
 
 - Maintained and enhanced a Python/Django backend API, including bug fixes, new endpoints, and performance
   optimizations.
